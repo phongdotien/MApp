@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterapp/modules/weather/screens/weather_screen.dart';
+import 'package:flutterapp/modules/video/screens/generate_input_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const WeatherScreen(),
+      home: const GenerateInputScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

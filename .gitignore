@@ -1,0 +1,62 @@
+# General
+.DS_Store
+.idea/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+# If you're using VSCode, consider excluding the workspace settings
+.vscode/
+
+# Android related
+android/.gradle
+android/.idea/
+android/*/build/
+android/*/local.properties
+android/.settings/
+android/app/*.jks
+android/app/src/main/key.properties
+
+# iOS related
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/GeneratedPluginRegistrant.*
+ios/Flutter/podhelper.rb
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/.generated/
+ios/Flutter/ephemeral/
+
+# macOS related
+macos/Pods/
+macos/Flutter/ephemeral/
+macos/Runner.xcworkspace/
+
+# Linux related
+linux/flutter/
+linux/.dart_tool/
+linux/.flutter-plugins
+linux/.flutter-plugins-dependencies
+
+# Windows related
+windows/flutter/
+windows/.dart_tool/
+windows/.flutter-plugins
+windows/.flutter-plugins-dependencies
+
+# Web related
+web:build/
+
+# Custom files
+lib/generated_plugin_registrant.dart
+
+# By default don't commit pubspec.lock for library packages; do commit for application packages
+# pubspec.lock
